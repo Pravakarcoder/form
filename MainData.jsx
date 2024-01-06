@@ -1,4 +1,5 @@
 import React from "react";
+import Input from "./app/components/Input";
 
 const Form = () => {
   return (
@@ -16,6 +17,7 @@ const Form = () => {
             </h2>
             <div className="grid grid-cols-2 gap-6">
               {/* Site ID */}
+
               <div>
                 <label
                   className="block text-gray-600 text-sm font-medium mb-2"
